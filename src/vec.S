@@ -1,3 +1,13 @@
+/******************************************************************************
+ *                                                                            *
+ * Copyright (C) 2023 MachineWare GmbH                                        *
+ * All Rights Reserved                                                        *
+ *                                                                            *
+ * This is work is licensed under the terms described in the LICENSE file     *
+ * found in the root directory of this source tree.                           *
+ *                                                                            *
+ ******************************************************************************/
+
     .globl      dot_prod_vec
     .type       dot_prod_vec, @function
 # int64_t dot_prod_vec(int32_t *src1, int32_t *src2, int data_num);
