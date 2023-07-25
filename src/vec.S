@@ -14,7 +14,7 @@
 # a0=src1, a1=src2, a2=data_num
 #
 dot_prod_vec:
-    xor         t3, t3, t3      # init temp teg
+    xor         t3, t3, t3      # init temp reg
 .loop_mul:
     vxor.vv     v3, v3, v3      # init temp reg
 
